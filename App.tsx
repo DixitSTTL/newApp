@@ -12,6 +12,7 @@ import UserTypeScreen from './lib/route/sqlite/UserTypeScreen';
 import AdminScreen from './lib/route/sqlite/AdminScreen';
 import AddItemScreen from './lib/route/sqlite/AddItemScreen';
 import UserScreen from './lib/route/sqlite/UserScreen';
+import ApiCallDemo from './lib/route/ApiCallDemo';
 
 const Stack = createNativeStackNavigator();
 
@@ -30,6 +31,7 @@ function App() {
         <Stack.Screen name="AdminScreen" component={AdminScreen} />
         <Stack.Screen name="AddItemScreen" component={AddItemScreen} />
         <Stack.Screen name="UserScreen" component={UserScreen} />
+        <Stack.Screen name="ApiCallDemo" component={ApiCallDemo} />
 
       </Stack.Navigator>
     </NavigationContainer>
